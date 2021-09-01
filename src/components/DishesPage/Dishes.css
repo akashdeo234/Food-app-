@@ -1,0 +1,33 @@
+.dishes {
+  width: 100%;
+  height: 100vh;
+  margin: 100px 0;
+}
+
+.dishes img {
+  border-radius: 5px;
+}
+
+.dishes h2 {
+  margin-bottom: 30px;
+}
+
+.dishes p {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.dishes .dish-iteams {
+  width: 100%;
+  height: 40vh;
+}
+
+.dishes .dish-iteams .dish-iteam-wrapper {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  grid-gap: 20px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/*# sourceMappingURL=Dishes.css.map */

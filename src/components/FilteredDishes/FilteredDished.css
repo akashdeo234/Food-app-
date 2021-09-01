@@ -1,0 +1,35 @@
+.filtered-dish {
+  width: 100%;
+  height: 100vh;
+}
+
+.filtered-dish ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.filtered-dish ul li {
+  background-color: #ffb902;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.filtered-dish ul li.active {
+  background-color: black;
+}
+
+.filtered-dish ul li:hover {
+  background-color: black;
+}
+/*# sourceMappingURL=FilteredDished.css.map */
